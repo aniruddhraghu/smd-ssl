@@ -1,0 +1,19 @@
+{
+    "run_dir": "../SampleArgs/testing",
+    "run_name": "exp",
+    "num_dataloader_workers": 3,
+    "frac_fine_tune_data_seed": 0,
+    "train_embedding_after": -1,
+    "do_frozen_representation": false,
+    "do_free_representation": true,
+    "do_small_data": false,
+    "verbose": false,
+    "signal_seconds": 10,
+    "load_epoch": -1,
+    "epochs": 10,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "do_simclr": false,
+    "do_vicreg": false,
+    "task": "example_task"
+}
